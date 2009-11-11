@@ -1,0 +1,14 @@
+ItalianProvinceSelect
+=====================
+
+Shameless rip-off of CountrySelect.
+
+Provides a simple helper to get an HTML select list of Italian provinces.
+
+Example
+=======
+
+italian_province_select("user", "province")
+
+
+Copyright (c) 2009 Emanuele Vicentini, released under the MIT license
