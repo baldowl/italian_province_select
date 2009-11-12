@@ -1,7 +1,8 @@
 ItalianProvinceSelect
 =====================
 
-Shameless rip-off of CountrySelect.
+Shameless rip-off of CountrySelect (Copyright (c) 2008 Michael Koziarski,
+released under the MIT license). See http://github.com/rails/country_select
 
 Provides a simple helper to get an HTML select list of Italian provinces.
 
