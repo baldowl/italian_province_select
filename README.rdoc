@@ -1,15 +1,12 @@
-ItalianProvinceSelect
-=====================
+= ItalianProvinceSelect
 
 Shameless rip-off of CountrySelect (Copyright (c) 2008 Michael Koziarski,
 released under the MIT license). See http://github.com/rails/country_select
 
 Provides a simple helper to get an HTML select list of Italian provinces.
 
-Example
-=======
+== Examples
 
-italian_province_select("user", "province")
+    italian_province_select("user", "province")
 
-
-Copyright (c) 2009 Emanuele Vicentini, released under the MIT license
+Copyright (c) 2009, 2011 Emanuele Vicentini, released under the MIT license
