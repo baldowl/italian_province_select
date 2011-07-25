@@ -19,7 +19,7 @@ module ActionView
       end
 
       # All the provinces included in the italian_province_options output.
-      ITALIAN_PROVINCES = [ "Agrigento", "Alessandria", "Ancona", "Aosta",
+      ITALIAN_PROVINCES = ["Agrigento", "Alessandria", "Ancona", "Aosta",
         "Arezzo", "Ascoli Piceno", "Asti", "Avellino", "Bari",
         "Barletta-Andria-Trani", "Belluno", "Benevento", "Bergamo",
         "Biella", "Bologna", "Bolzano", "Brescia", "Brindisi", "Cagliari",
@@ -29,17 +29,17 @@ module ActionView
         "Forlì-Cesena", "Frosinone", "Genova", "Gorizia", "Grosseto",
         "Imperia", "Isernia", "La Spezia", "L'Aquila", "Latina", "Lecce",
         "Lecco", "Livorno", "Lodi", "Lucca", "Macerata", "Mantova",
-        "Massa-Carrara", "Matera", "Messina", "Milano", "Modena",
-        "Monza e della Brianza", "Napoli", "Novara", "Nuoro",
-        "Olbia-Tempio", "Oristano", "Padova", "Palermo", "Parma", "Pavia",
-        "Perugia", "Pesaro e Urbino", "Pescara", "Piacenza", "Pisa",
-        "Pistoia", "Pordenone", "Potenza", "Prato", "Ragusa", "Ravenna",
-        "Reggio Calabria", "Reggio Emilia", "Rieti", "Rimini", "Roma",
-        "Rovigo", "Salerno", "Medio Campidano", "Sassari", "Savona",
-        "Siena", "Siracusa", "Sondrio", "Taranto", "Teramo", "Terni",
-        "Torino", "Ogliastra", "Trapani", "Trento", "Treviso", "Trieste",
-        "Udine", "Varese", "Venezia", "Verbano-Cusio-Ossola", "Vercelli",
-        "Verona", "Vibo Valentia", "Vicenza", "Viterbo"] unless const_defined?("ITALIAN_PROVINCES")
+        "Massa e Carrara", "Matera", "Medio Campidano", "Messina", "Milano",
+        "Modena", "Monza e Brianza", "Napoli", "Novara", "Nuoro",
+        "Ogliastra", "Olbia-Tempio", "Oristano", "Padova", "Palermo",
+        "Parma", "Pavia", "Perugia", "Pesaro e Urbino", "Pescara",
+        "Piacenza", "Pisa", "Pistoia", "Pordenone", "Potenza", "Prato",
+        "Ragusa", "Ravenna", "Reggio Calabria", "Reggio Emilia", "Rieti",
+        "Rimini", "Roma", "Rovigo", "Salerno", "Sassari", "Savona", "Siena",
+        "Siracusa", "Sondrio", "Taranto", "Teramo", "Terni", "Torino",
+        "Trapani", "Trento", "Treviso", "Trieste", "Udine", "Varese",
+        "Venezia", "Verbano-Cusio-Ossola", "Vercelli", "Verona",
+        "Vibo Valentia", "Vicenza", "Viterbo"] unless const_defined?("ITALIAN_PROVINCES")
     end
 
     class InstanceTag
